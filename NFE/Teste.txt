@@ -1,0 +1,3 @@
+Código - Teste || Preco Unitário NF-E - 430.5 || IPI - 2.05 || ICMS - 2.36 || Aliquota - 0.04
+Preço para calcular margem mínima -> R$ 415.25
+
