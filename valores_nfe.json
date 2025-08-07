@@ -1,0 +1,20 @@
+{
+  "codigo": [
+    "Teste"
+  ],
+  "quantidade": [
+    156
+  ],
+  "valor_unitario_nfe": [
+    430.5
+  ],
+  "icms": [
+    368.15
+  ],
+  "ipi": [
+    320
+  ],
+  "aliquota": [
+    0.04
+  ]
+}
