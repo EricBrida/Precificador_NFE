@@ -36,9 +36,9 @@ A aplicação tem como principais objetivos:
 - **[et_xmlfile](https://et-xmlfile.readthedocs.io/en/latest/)**: Dependência para realizar a leitura de um arquivo XML
 - **[openpyxl](https://openpyxl.readthedocs.io/en/stable/)**: Dependência para salvar os dados em uma planilha do Excel (Em Desenvolvimento).
 
-> [!NOTE] </br>
-> ***Função** para salvar em excel ainda não está disponível* </br>
-> *mas será adicionada em breve* </br>
+> [!NOTE]
+> ***Função** para salvar em excel ainda não está disponível,* </br>
+> *mas será adicionada em breve*
 
 # Como Utilizar
 
@@ -50,7 +50,7 @@ cd Precificador_NFE
 
 #### Após a clonagem do repositório, é uma boa índole criar um ambiente virtual para a instalação das dependências:
 
-> [!NOTE] </br>
+> [!NOTE]
 > ***.venv** ou **.env** são opções viáveis para o nome de seu ambiente virtual.* </br>
 > *Você pode selecionar o ambiente virtual pelo atalho **CTRL + SHIFT + P**, procurar por **"Python: Select Interpreter"** e buscar pelo .exe do venv.* </br>
 > *O comando "pip install -r requirements.txt" fará a instalação de todas as dependências utilizadas no projeto.*
@@ -61,7 +61,7 @@ python -m venv <nome_ambiente_virtual>
 pip install -r requirements.txt
 ```
 
-> [!IMPORTANT] </br>
+> [!IMPORTANT]
 > *Para rodar a aplicação é necessário que você insira os dados no arquivo **"valores_nfe.json"** e executar diretamente pelo arquivo **"precificar.py"**.*
 
 #### Caso execute pelo terminal: 
