@@ -1,5 +1,6 @@
 # Imports
 import os
+import sys
 import xml.etree.ElementTree as ET
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
@@ -142,6 +143,15 @@ def carregarUi():
     janela = tk.Tk()
     janela.title("Leitor de NF-e")
     janela.geometry("1600x900")
+
+    if getattr(sys, "frozen", False):
+        pasta_base = sys._MEIPASS
+    else:
+        pasta_base = os.path.dirname(os.path.abspath(__file__))
+
+    caminho_icone = os.path.join(pasta_base, "icone_nfe.ico")
+
+    janela.iconbitmap(caminho_icone)
 
     titulo = tk.Label(
         janela,

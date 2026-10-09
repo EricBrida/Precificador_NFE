@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Precificador XML',
+    name='Precificador XML ATL',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
