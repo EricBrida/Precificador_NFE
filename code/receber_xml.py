@@ -140,12 +140,12 @@ def selecionar_xml(label_arquivo, label_nota, label_fornecedor, tabela):
 # Função que cria a interface
 def carregarUi():
     janela = tk.Tk()
-    janela.title("Leitor NF-e - Atlantic Parts")
+    janela.title("Leitor de NF-e")
     janela.geometry("1600x900")
 
     titulo = tk.Label(
         janela,
-        text="Leitor de Notas Fiscais - Atlantic Parts",
+        text="Leitor de Notas Fiscais Eletrônicas",
         font=("Arial", 16, "bold")
     )
     titulo.pack(pady=15)
