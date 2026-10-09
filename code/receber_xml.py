@@ -144,14 +144,20 @@ def carregarUi():
     janela.title("Leitor de NF-e")
     janela.geometry("1600x900")
 
+    # Tentando carregar o icone
     if getattr(sys, "frozen", False):
         pasta_base = sys._MEIPASS
     else:
         pasta_base = os.path.dirname(os.path.abspath(__file__))
 
-    caminho_icone = os.path.join(pasta_base, "icone_nfe.ico")
+    caminho_icone = os.path.join(pasta_base, "icone_nfe.png")
 
-    janela.iconbitmap(caminho_icone)
+    if os.path.isfile(caminho_icone):
+        icone = tk.PhotoImage(file=caminho_icone)
+        janela.iconphoto(True, icone)
+        janela.icone = icone
+    else:
+        print(f"Ícone não encontrado: {caminho_icone}")
 
     titulo = tk.Label(
         janela,
